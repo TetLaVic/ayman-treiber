@@ -11,24 +11,24 @@
 <body>
   <div class="header clearfix">
     <h1>Treiberdatenbank Team Devices (UDDD)</h1>
-    <div id="back" onclick="backfunction()">
+    <div id="back" onClick={backfunction}>
       < back</i>
     </div>
 
     <div class="column menu">
       <ul>
         <li>
-          <button type="button" onclick="standardView()">
+          <button id="standard" type="button">
             Standard view
           </button>
         </li>
         <li>
-          <button type="button" onclick="functionView()">
+          <button id="function" type="button" onClick={functionView}>
             Function view
           </button>
         </li> 
         <li>
-          <button type="button" onclick="seeEverything()">
+          <button id="everything" type="button" onClick={seeEverything}>
             Expert view
           </button>
         </li>
@@ -150,5 +150,6 @@
 </div>
 <!-- end menu -->
 <script src="menu-items.js" type="module"></script>
+<script src="JS_Website.js" type="module"></script>
 </body>
 </html>
