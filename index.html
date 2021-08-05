@@ -1,0 +1,154 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="CSS_Website.css">
+  <title>Treiberdatenbank</title>
+</head>
+
+<body>
+  <div class="header clearfix">
+    <h1>Treiberdatenbank Team Devices (UDDD)</h1>
+    <div id="back" onclick="backfunction()">
+      < back</i>
+    </div>
+
+    <div class="column menu">
+      <ul>
+        <li>
+          <button type="button" onclick="standardView()">
+            Standard view
+          </button>
+        </li>
+        <li>
+          <button type="button" onclick="functionView()">
+            Function view
+          </button>
+        </li> 
+        <li>
+          <button type="button" onclick="seeEverything()">
+            Expert view
+          </button>
+        </li>
+      </ul>
+   </div>
+
+   <input class="search" type="text" placeholder="search..">
+  </div>
+
+  <div class="topnav">
+    <!--<div>Auswahl Treiber
+      <select name="driver" id="drivers">
+        <option value="Netlabelprinter">Netlabelprinter</option>
+        <option value="DataLogic">DataLogic</option>
+        <option value="DominoG-Serie">DominoG-Serie</option>
+      </select>
+    </div>-->
+    <div class="topnav-dropdown">
+      Auswahl Treiber
+      <div class="topnav-dropdown-content">
+        <ul>
+          <li>
+            Netlabelprinter
+          </li>
+          <li>
+            DataLogic
+          </li>
+          <li>
+            DominoG-Serie
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="topnav-dropdown">
+        Auswahl Version
+        <div class="topnav-dropdown-content">
+          <ul id="menu-items">
+            <li>
+              Pexcite V1.2
+            </li>
+            <li>
+              Pexcite V1.1
+            </li>
+            <li>
+              Pexcite V1.0
+            </li>
+            <li>
+              SC R2012
+            </li>
+            <li>
+              SC R2006
+            </li>
+          </ul>
+        </div>
+        <!-- <span class="dropdown-content">
+          hiii
+        </span> -->
+      </div>
+    <div>Auswahl Treiber-Funktion</div>
+  </div>
+  <div class="clear"></div>
+  <p class="invisible txt">showing and hiding</p>
+  <!-- <div class="dropdown">
+    <span>hover over here</span>
+    <div class="dropdown-content">
+      <p>hello!</p>
+    </div>
+  </div> -->
+
+
+  <!-- start menu -->
+<div id="top_menu">
+    <nav>
+        <div class="container">
+            <ul>
+                <li><a href="/#"><img class="home" alt="" height="20" src="./others/Uhlmann-Group.png" width="20"> </a></li>
+                <li><a href="/number1">number 1</a>
+                    <div class="drop">
+                        <div>
+                            <a href="/cat1">category 1</a>
+                            <ul>
+                                <li><a href="/1">test1</a></li>
+                                <li><a href="/2">test2</a></li>
+                                <li><a href="/3">test3</a></li>
+                                <li><a href="/4">test4</a></li>
+                            </ul>
+                            <a href="/cat2">category 2</a>
+                            <ul>
+                                <li><a href="/1">test1</a></li>
+                            </ul>
+                        </div>
+                        <div>
+                            <a href="/cat3">category 3</a>
+                            <ul>
+                                <li><a href="/1">test1</a></li>
+                                <li><a href="/2">test2</a></li>
+                                <li><a href="/3">test3</a></li>
+                                <li><a href="/4">test4</a></li>
+                            </ul>
+                            <a href="/cat4">category 4</a>
+                            <ul>
+                                <li><a href="/1">test1</a></li>
+                            </ul>
+                            <a href="/cat5">category 5</a>
+                            <ul>
+                                <li><a href="/1">test1</a></li>
+                            </ul>
+                        </div>
+                        <div>
+                    </div>
+                </li>
+                <li><a href="/number2">number 2</a></li>
+                <li><a href="/number3">number 3</a></li>
+                <li><a href="/number4">number 4</a></li>
+                <li><a href="/number5">number 5</a></li>
+            </ul>
+        </div>
+    </nav>
+</div>
+<!-- end menu -->
+<script src="menu-items.js" type="module"></script>
+</body>
+</html>

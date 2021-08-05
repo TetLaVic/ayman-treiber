@@ -1,0 +1,13 @@
+in dem Verzeichnis "websources" eine erste kleine Webseite mittels HTML, CSS und Javascript erstellen, welche folgendes enthält:
+	- eine Überschrift, enthält "Treiberdatenbank Team Devices (UDDD)
+	- eine Unterüberschrift, enthält weitere Infos zur Webseite, bspw.: "diese Seite enthält alle Treiberversionen mit verfügbaren und zugewiesenen Funktionen"
+	    - "es wird möglich sein über verschiedene Felder und Abfragen benöitgte Informationen abzufragen und zu hinterlegen"
+	- Verwendung eines CSS im HTML Code zur Angabe des Aussehens / Anordnung etc., Hintergrundfarbe (Uhlmann-Blau), Schriftart
+	- verschiedene Labels mit Beschriftung von Textfeldern hinterlegen
+	    - Label mit Beschriftung "Auswahl Treiber"
+	        - auswahlfeld / combo box neben Label angeordnet, welche erstmal 3 Treibernamen enthält (Netlabelprinter, DataLogic, DominoG-Serie)
+	    - Label mit Beschriftung "Auswahl Version"
+	        - Auswahlfeld / combo box neben Label, welches 3 Treiberversionen enthält, (Pexcite V1.2, Pexcite V1.1, Pexcite V1.0, SC R2012, SC R2006)
+	    - Label mit Beschriftung "Auswahl Treiber-Funktion"
+	        - Auswahlfeld / combo box neben Label, welches Treiberfunktionen enthält (Tracking Druckdaten, Seriennummer Requester, ZPL-Protokoll)
+    - Javscript: ein oder mehrere Buttons hinterlegen, welche in einem separaten Textfeld ausgibt, was in der Combobox ausgewählt wurde
